@@ -16,7 +16,8 @@ export default async function Home() {
           Supabase-miljøvariabler mangler. Opprett en{" "}
           <code className="rounded bg-zinc-100 px-1 py-0.5">.env.local</code>{" "}
           med <code>NEXT_PUBLIC_SUPABASE_URL</code> og{" "}
-          <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code>, og restart dev-serveren.
+          <code>NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY</code>, og restart
+          dev-serveren.
         </p>
       </main>
     );
